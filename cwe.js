@@ -9,9 +9,13 @@
     }
 
     function CWE_476() { // NULL_POINTER
-        var obj;
+        var obj = {};
+        var obj2;
+        var obj3;
         var y = obj.x;
-        console.log(y);
+        var z = obj2.y;
+        var x = obj.z;
+        console.log(y, z, x);
     }
 
     function CWE_480() { // BAD_BITWISE_OPERATOR
