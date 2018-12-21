@@ -73,3 +73,7 @@
         }
     }
     
+    function test_2018_12_21() {
+        const a = 1;
+        a = 3;
+    }
