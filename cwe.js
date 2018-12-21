@@ -29,7 +29,6 @@
     function CWE_482_665() { // UNUSED_EXPR
         this.foo;
     }
-
     function CWE_484() { // SWITCH_CASE_FALL_THROUGH
         var x;
         switch (x) {
